@@ -1,0 +1,27 @@
+#lunch-menu {
+    border: 2px lightgrey solid;
+}
+
+.alert-message {
+    text-align: center;
+    width: 250px;
+    border: 2px solid darkgray;
+    background-color: darkred;
+    color:#ffaaaa;
+}
+
+.error-message {
+    text-align: center;
+    width: 250px;
+    border: 2px solid red;
+    background-color: #ffaaaa;
+    color: darkred;
+}
+
+.succes-message {
+    text-align: center;
+    width: 250px;
+    border: 2px solid green;
+    background-color: lightgreen;
+    color: darkgreen;
+}
