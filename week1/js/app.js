@@ -40,9 +40,9 @@
     // Calculate number of items provided by user
     // include optional empty items
     $scope.count_items = function () {
-      // if ($scope.items == "") {
-      //   return 0;
-      // }
+      if ($scope.items == "") {
+        return 0;
+      }
 
       let content = $scope.items.replace(/\s/g, '');
       let data = content.split(',');
