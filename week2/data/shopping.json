@@ -1,0 +1,23 @@
+{"shopping" : [
+        {
+        "name": "cookies",
+        "quantity": "1 bag"
+        },
+        {
+        "name": "soda",
+        "quantity": "3 bags"
+        },
+        {
+        "name": "marshmellows",
+        "quantity": "3 bags"
+        },
+        {
+        "name": "chocolates",
+        "quantity": "3 pieces"
+        },
+        {
+        "name": "diet coke",
+        "quantity": "10 cans"
+        }
+    ]
+}
