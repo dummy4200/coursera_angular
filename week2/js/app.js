@@ -28,15 +28,15 @@
         let toBuy = this;
 
         // initialize model values
-        $scope.items = ShoppingListService.itemsToBuy;
+        toBuy.items = ShoppingListService.itemsToBuy;
         
         // status for the visibility of message
-        $scope.isVisible = function () {
+        toBuy.isVisible = function () {
             return ShoppingListService.isToBuyListEmpty == true;
         }
 
         // handle when item marked as bought
-        $scope.handleBuy = function (id) {
+        toBuy.handleBuy = function (id) {
             $scope.items = ShoppingListService.moveItem(id);
         }
     }
@@ -47,11 +47,13 @@
 
     HasBoughtController.$inject = ['$scope', 'ShoppingListService'];
     function HasBoughtController($scope, ShoppingListService) {
+        let bought = this;
+
         // get data from service
-        $scope.items = ShoppingListService.itemsBought;
+        bought.items = ShoppingListService.itemsBought;
 
         // status for the visibility of message
-        $scope.isVisible = function() {
+        bought.isVisible = function() {
             return ShoppingListService.isHasBoughtListEmpty == true;  
         } 
     }
