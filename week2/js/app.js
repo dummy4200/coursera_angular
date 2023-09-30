@@ -37,7 +37,7 @@
 
         // handle when item marked as bought
         toBuy.handleBuy = function (id) {
-            $scope.items = ShoppingListService.moveItem(id);
+            toBuy.items = ShoppingListService.moveItem(id);
         }
     }
 
