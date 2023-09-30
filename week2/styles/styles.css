@@ -1,8 +1,4 @@
-.emptyMessage {
-    font-weight: bold;
-    color: red;
-    font-size: 1.2em;
-}
+
 
 li {
     margin-bottom: 7px;
@@ -15,4 +11,26 @@ li>button {
 
 button>span {
     color: green;
+}
+
+.emptyMessage {
+    font-weight: bold;
+    color: red;
+    font-size: 1.2em;
+}
+
+.container {
+    background-color: azure;
+    border: 2px solid lightblue;
+    padding: 15px;
+}
+
+h1 {
+    color: red;
+    text-shadow: 2px 2px 4px   darkblue;
+}
+
+.section {
+    background-color: azure;
+    border-right: 2px solid blue;
 }
